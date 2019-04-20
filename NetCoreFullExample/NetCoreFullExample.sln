@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreExApi", "CoreExApi\Core
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreEx.Domain", "CoreEx.Domain\CoreEx.Domain.csproj", "{D0FA821A-6DAA-4268-A9FB-C5585B32140C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreEx.Application", "CoreEx.Application\CoreEx.Application.csproj", "{A730016D-F212-42B0-B10E-BF1BA123AE69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{D0FA821A-6DAA-4268-A9FB-C5585B32140C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0FA821A-6DAA-4268-A9FB-C5585B32140C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0FA821A-6DAA-4268-A9FB-C5585B32140C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A730016D-F212-42B0-B10E-BF1BA123AE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A730016D-F212-42B0-B10E-BF1BA123AE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A730016D-F212-42B0-B10E-BF1BA123AE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A730016D-F212-42B0-B10E-BF1BA123AE69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{EBD4D38C-F725-4412-BB22-315EFAC5B6F6} = {469AD7E4-B6FD-4A53-BA5B-261C004409BE}
 		{74DB74D0-7DFE-42EA-A277-7D146232C47C} = {EBD4D38C-F725-4412-BB22-315EFAC5B6F6}
 		{D0FA821A-6DAA-4268-A9FB-C5585B32140C} = {28B9A498-03C5-4999-95DF-76708C10CB75}
+		{A730016D-F212-42B0-B10E-BF1BA123AE69} = {28B9A498-03C5-4999-95DF-76708C10CB75}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8ADA6B12-6685-450D-A146-D7357F78E4AB}

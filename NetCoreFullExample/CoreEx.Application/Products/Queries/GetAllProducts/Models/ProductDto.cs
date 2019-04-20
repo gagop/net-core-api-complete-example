@@ -1,9 +1,8 @@
 ﻿using System;
 
-namespace CoreEx.Domain.Entities
+namespace CoreEx.Application.Products.Queries.GetAllProducts.Models
 {
-    //Initialize collections and make set private in collections
-    public class Product
+    public class ProductDto
     {
         public int IdProduct { get; set; }
         public string Name { get; set; }
