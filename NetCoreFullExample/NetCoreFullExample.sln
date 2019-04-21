@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{EBD4D38C-F725-4412-BB22-315EFAC5B6F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreExApi", "CoreExApi\CoreExApi.csproj", "{74DB74D0-7DFE-42EA-A277-7D146232C47C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreExApi2", "CoreExApi\CoreExApi2.csproj", "{74DB74D0-7DFE-42EA-A277-7D146232C47C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreEx.Domain", "CoreEx.Domain\CoreEx.Domain.csproj", "{D0FA821A-6DAA-4268-A9FB-C5585B32140C}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreEx.Common", "CoreEx.Common\CoreEx.Common.csproj", "{658EE52B-9A38-4A2E-AF5E-642BF75AD2A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreEx.Persistence", "CoreEx.Persistence\CoreEx.Persistence.csproj", "{0BDE662B-C410-4677-8B49-1C1CC72A72BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreEx.Api", "CoreEx.Api\CoreEx.Api.csproj", "{8334592C-47E1-431B-B944-90BB0D83E72B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{0BDE662B-C410-4677-8B49-1C1CC72A72BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BDE662B-C410-4677-8B49-1C1CC72A72BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BDE662B-C410-4677-8B49-1C1CC72A72BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8334592C-47E1-431B-B944-90BB0D83E72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8334592C-47E1-431B-B944-90BB0D83E72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8334592C-47E1-431B-B944-90BB0D83E72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8334592C-47E1-431B-B944-90BB0D83E72B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{9857F8E7-9A2B-4AEA-9C70-30D26B367654} = {1FBE7391-1F98-46FE-AED9-4E87D4890591}
 		{658EE52B-9A38-4A2E-AF5E-642BF75AD2A8} = {3A7E450A-92DF-4251-9CF8-12BA65F89B1D}
 		{0BDE662B-C410-4677-8B49-1C1CC72A72BC} = {1FBE7391-1F98-46FE-AED9-4E87D4890591}
+		{8334592C-47E1-431B-B944-90BB0D83E72B} = {EBD4D38C-F725-4412-BB22-315EFAC5B6F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8ADA6B12-6685-450D-A146-D7357F78E4AB}

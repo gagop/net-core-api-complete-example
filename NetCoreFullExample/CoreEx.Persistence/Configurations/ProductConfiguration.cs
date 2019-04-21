@@ -9,6 +9,7 @@ namespace CoreEx.Persistence.Configurations
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
+            builder.ToTable("Product");
             builder.HasKey(e => e.IdProduct);
             builder.Property(e => e.IdProduct).ValueGeneratedOnAdd();
             builder.Property(e => e.Category).IsRequired().HasMaxLength(50);
